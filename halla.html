@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p{
+    text-align: center;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+nav{
+    background-color: #0d364b;
+    color: #ffb703;
+    padding: 0 20px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu ";
+    align-items: center;
+}
+
+nav h1{
+    grid-area: logo;
+
+}
+nav ul {
+    grid-area: menu;
+    list-style: none;
+    justify-self: end;
+}
+nav ul li a{
+    color: #ffb703;
+    text-decoration: none;
+}
+nav input,
+nav label{
+    display: none;
+}
+.pica{
+    text-align: center;
+
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+}
+
+</style>
+<body>
+    <nav>
+        <h3>Airlinies</h3>
+        <label>&#9776</label>
+        <input type="checkbox" id="open-menu">
+        <ul>
+          <li><a href="day.html">Ofertat</a></li>
+        </ul>
+    </nav>
+    <div class="img">
+        <img src="https://www.rollink.com/wp-content/uploads/2022/12/domestic-vs-international-carry-on-hero-image.jpg" alt="">
+        
+    </div>
+    <style>
+        .img{
+            width: 100%;
+            height: 600px;
+            padding: 0 250px;
+        }
+
+    </style>
+    <div class="pica">
+        <h2>Bagge</h2>
+    
+    <form action="">  
+        <label for="Age">Bagge 5kg</label>
+        <input type="radio" value="Under 16" name="Age" id="Under 16" >
+       </form>
+       <form action="">
+        <label for="Age">Bagge 20kg</label>
+        <input type="radio" value="16 or Older" name="Age" id="16 or Older">
+       </form>
+       </form>
+    </div>
+    <button class="top"
+    onclick="myFunction()">Next
+       
+</button>
+<script>
+    function myFunction() {
+        window.open("unejs.html");
+    }
+ </script>
+
+</body>
+</html>

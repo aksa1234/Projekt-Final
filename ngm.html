@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+.eye{
+    color: red;
+    padding: 0 20px;
+    width: 200px;
+}
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p{
+    text-align: center;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+nav{
+    background-color: #0d364b;
+    color: #ffb703;
+    padding: 0 20px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu ";
+    align-items: center;
+}
+
+nav h1{
+    grid-area: logo;
+
+}
+nav ul {
+    grid-area: menu;
+    list-style: none;
+    justify-self: end;
+}
+nav ul li a{
+    color: #ffb703;
+    text-decoration: none;
+}
+nav input,
+nav label{
+    display: none;
+}
+img{
+    position: center;
+    left: 42px;
+    top: 36px;
+    z-index: -1;
+}
+.blue{
+        position: center;
+        width: 400px;
+        color: white;
+        z-index: -1;
+        padding:5px ;
+        height: 250px;
+
+    }
+    img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.clock{
+        position: center;
+        width: 400px;
+        color: rgb(0, 0, 0);
+        z-index: -1;
+        padding:5px ;
+        height: 400px;
+        
+}
+.op{
+    color: red;
+    padding: 0 20px;
+    width: 200px;
+}
+.top{
+    position: center;
+    left: 100px;
+    right: 55px;
+    z-index: -1;
+    width: 1550px;
+    height: 50px;
+}
+.ex{
+    align-items: flex-end;
+    padding: 2px;
+    top: 4px;
+    right: 5px;
+    left: 5px;
+}
+</style>
+<body>
+    <nav>
+        <h3>Airlinies</h3>
+        <label>&#9776</label>
+        <input type="checkbox" id="open-menu">
+        <ul>
+          <li><a href="day.html">Ofertat</a></li>
+        </ul>
+    </nav>
+<img src="https://images.squarespace-cdn.com/content/v1/580e5c7237c581e306e356b4/1511303004001-M6ON4VQF248W5QFH8JYN/Image+uploaded+from+iOS+%285%29.jpg?format=2500w" alt="">
+    <style>
+        img{
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+    <div class="blue">
+        </form>
+        <form action="">
+    <div class="eye">
+        <h2>Select Food</h2>
+ 
+    </div>
+    <form action="">  
+        <label for="Age">Hamburger</label>
+        <input type="radio" value="Under 16" name="Age" id="Under 16" >
+       </form>
+       <form action="">
+        <label for="Age">Sandwich</label>
+        <input type="radio" value="16 or Older" name="Age" id="16 or Older">
+       </form>
+       <form action="">  
+        <label for="Age">Desert</label>
+        <input type="radio" value="Under 16" name="Age" id="Under 16" >
+       </form>
+       </form>
+    </div>
+    <div class="clock">
+    </form>
+    <form action="">
+    <div class="op"> 
+    <h2>Select Drink</h2>
+    </div>
+    <form action="">  
+    <label for="Age">CocaCola</label>
+    <input type="radio" value="Under 16" name="Age" id="Under 16" >
+   </form>
+   <form action="">
+    <label for="Age">Koffe</label>
+    <input type="radio" value="16 or Older" name="Age" id="16 or Older">
+   </form>
+   <form action="">
+    <label for="Age">Tea</label>
+    <input type="radio" value="16 or Older" name="Age" id="16 or Older">
+   </form>
+   
+   </form>
+   </div>
+
+   <button class="top"
+   onclick="myFunction()">Submit
+      
+    </button>
+    <script>
+   function myFunction() {
+       window.open("era.html");
+   }
+</script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p{
+    text-align: center;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+nav{
+    background-color: #0d364b;
+    color: #ffb703;
+    padding: 0 20px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu ";
+    align-items: center;
+}
+
+nav h1{
+    grid-area: logo;
+
+}
+nav ul {
+    grid-area: menu;
+    list-style: none;
+    justify-self: end;
+}
+nav ul li a{
+    color: #ffb703;
+    text-decoration: none;
+}
+nav input,
+nav label{
+    display: none;
+}
+img{
+    position: center;
+    left: 42px;
+    top: 36px;
+    z-index: -1;
+}
+.p{
+    color: rgb(255,255,255);
+}
+
+tr:nth-child(even){
+    background-color: D6EEEE;
+}
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.aksa{
+    align-items: flex-end;
+    padding: 2px;
+    top: 4px;
+    right: 5px;
+    left: 5px;
+    width: 100%;
+    height: 600px;
+}
+table {
+    width: 100%;
+    border: 1px solid;
+    background-color: #ffb703;
+  }
+.top{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: right;
+    right: 50px;
+    position:  absolute;
+   
+    
+}
+.emir{
+  width: 20%;
+  height: 20px;
+}
+.img{
+    width: 100%;
+    height: 600px;
+}
+.halla{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(173, 165, 165);
+    text-align: center;
+    color: black;
+    
+}
+</style>
+<body>
+  <nav>
+   <h3>Air Kosova</h3>
+    <label>&#9776</label>
+    <input type="checkbox" id="open-menu">
+    <ul>
+      <li><a href="day.html">Tickets </a></li>
+      <ul>
+        <li><a href="ngm.html">Services</a></li>
+    </ul>
+    </ul>
+  
+  </nav>
+ 
+   
+    <div class="img">
+        <div class="p">
+        
+           <h1>Where do you want to explore?</h1>
+        </div>
+    </div>
+    
+    
+    <img src="https://pilotinstitute.com/wp-content/uploads/2023/02/How-Much-Do-Airplanes-Cost.jpg" alt="">
+    <style>
+        img{
+            width: 100%;
+            height: 800px;
+        }
+    </style>
+
+
+    <ul>
+      <li><a href="center.html"></a></li>
+    </ul>
+ <div class="aksa"> 
+    <table>
+       
+       <th>Flight</th>
+      
+      
+          <td>From</td>
+          <td><input type=" name" id="name" name="Name"></td>
+          
+        
+       
+      
+          <td>TO</td>
+          <td><input type="text" id="name"name="Name"></td>
+          
+      
+   
+          <td>Passenger</td>
+          <td><input type="text" id="Passenger" name="Passenger"></td>
+      <button class="top"
+          onclick="myFunction()">Search Flights
+             
+      </button>
+      <script>
+          function myFunction() {
+              window.open("era.html");
+          }
+       </script>
+      
+  
+      </td>
+       </tr>
+    <td>
+    </td>
+  
+</div>
+  <div class="halla">
+     <h2>Enjoy Your Travel</h2>
+  </div>
+
+</body>
+</html>
